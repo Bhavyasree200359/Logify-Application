@@ -8,7 +8,7 @@ import AgentConfig from './components/agentConfig';
 
 function App() {
   return (
-    <BrowserRouter basename="/logify">
+    <BrowserRouter basename="/Logify-Application">
       <Routes>
         <Route path="/" element={<LandingPage />} />  
         <Route path="/signup" element={<SignUpPage />} />
